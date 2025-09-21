@@ -1,0 +1,17 @@
+#container-box{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid;
+    height: 200px;
+    width: 320px;
+}
+.class{
+    border: 1px solid brown;
+}
+.class:nth-child(1),
+.class:nth-child(3),
+.class:nth-child(5),
+.class:nth-child(7){
+    background-color: aqua;
+}

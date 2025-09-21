@@ -1,0 +1,18 @@
+#container-box{
+    display: flex;
+    width: 160px;
+    height: 100px;
+    border: 2px solid black;
+    flex-direction: row-reverse;
+}
+.box{
+    border: 1px solid yellow;
+    width: 40px;
+    height: auto;
+}
+.box:nth-child(1),:nth-child(3){
+    background-color: blue;
+}
+.box:nth-child(2),:nth-child(4){
+    background-color: gray;
+}
